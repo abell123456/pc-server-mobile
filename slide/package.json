@@ -1,0 +1,17 @@
+{
+  "name": "slide",
+  "version": "1.0.0",
+  "description": "a slde app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slide"
+  ],
+  "author": "xiangzhong.wxz",
+  "license": "MIT",
+  "dependencies": {
+    "thunkify": "^2.1.2"
+  }
+}
