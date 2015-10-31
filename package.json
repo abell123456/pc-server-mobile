@@ -2,7 +2,7 @@
   "name": "slide",
   "version": "1.0.0",
   "description": "a slde app",
-  "main": "server/server.js",
+  "main": "/server/server.js",
   "scripts": {
     "server": "node /server/server.js"
   },
