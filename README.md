@@ -5,7 +5,7 @@
 ## 前期工作
 首先，你要把js/mobile.js，js/slide.js中Ajax请求的IP地址更换一下，因为那是我本机的IP地址，需要更换为你本机的IP地址。查看本机IP地址可以在命令行中输入:  
 windows下：ipconfig，Mac下：ifconfig。  
-js/slide.js中的请求url地址可以更换为localhost或127.0.0.1。
+js/slide.js中的请求url地址域名部分可以更换为localhost或127.0.0.1。
 ## 安装XAMPP并启动服务：
 首先下载安装本地服务器搭建工具：[XAMPP](https://www.apachefriends.org/zh_cn/download.html)，安装完成后启动服务；
 ## 将项目文件放置于服务指定访问文件夹下：
