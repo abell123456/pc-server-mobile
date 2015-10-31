@@ -19,7 +19,9 @@ js/slide.js中的请求url地址可以更换为localhost或127.0.0.1。
 这时，你应该能看到一个用impress.js实现的PPT了，注意左上角有一个二维码，二维码的内容是用于移动端访问的链接地址。  
 好吧，也许你已经猜到了，这个地址也是用我本机的IP地址生成的，你可以用你本机的IP地址生成一个二维码后，将其转换为：base64编码放于二维码元素的样式里，来替换原有的二维码。  
 移动端访问地址推荐格式：'http://'+你本机的IP地址+'/client/mobile.html'  
-推荐一个比较好的二维码生成地址：[草料二维码](http://cli.im/)，png图片转base64编码：[png to base64](http://tool.css-js.com/base64.html)。  
+推荐一个比较好的二维码生成地址：[草料二维码](http://cli.im/)，  
+png图片转base64编码：[png to base64](http://tool.css-js.com/base64.html)，  
+impress.js PPT在线制作：[Strut](http://strut.io/editor/)。  
 ## 操作
 将你自己的二维码放上去之后，只需要拿你的手机打开任意一个有二维码扫描功能的APP（比如微信、微博）扫描二维码，即可以打开移动端的访问地址。  
 打开后，页面上有两个按钮，好吧，你也许又猜到了，点击往左的箭头，PC浏览器上的PPT就会往前翻一页，点击往右的按钮则会向下翻一页。  
