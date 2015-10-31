@@ -5,7 +5,7 @@ var timeoutId = 0,
 
 impress.init();
 
-+function recursive(){
+function recursive(){
     send({
         data: {
             from: 'pc'
@@ -26,13 +26,16 @@ impress.init();
             timeoutId = setTimeout(recursive, timeout);
         }
     });
-}();
+};
+
+recursive();
 
 document.addEventListener("visibilitychange", function() {
     if(document.visibilityState === 'visible'){
         timeout = 500;
+        recursive();
     } else if(document.visibilityState === 'hidden'){
-        timeout = 2*60*900;
+        timeout = 2*60*900; // 2分钟内没有请求，NodeJS进程会中断与客户端的连接
     }
 });
 
