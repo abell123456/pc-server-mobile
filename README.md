@@ -1,5 +1,5 @@
 # pc-server-mobile
-基于：XAMPP+Ajax+nodeJS的实现pc端浏览器、NodeJS服务以及移动端浏览器三方通信的解决方案
+装逼利器：基于XAMPP+Ajax+nodeJS的实现pc端浏览器、服务器以及移动端浏览器三方通信的解决方案
 
 # 一步步教你实现三方通信
 ## 前期工作
