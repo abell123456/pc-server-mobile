@@ -13,9 +13,9 @@ js/slide.js中的请求url地址域名部分可以更换为localhost或127.0.0.1
 `/Applications/XAMPP/xamppfiles/htdocs`  
 其实在XAMPP应用里有“Open Application Folder”操作选项，你可以点击打开对应的应用文件夹，然后把项目文件拷贝到htdocs目录下。
 ## 启动NodeJS服务
-NodeJS服务入口文件是server/server.js，你可以在命令行server目录下执行:
+NodeJS服务入口文件是server/server.js，你可以在命令行server目录下执行:  
 `sudo node server.js`  
-或者在项目根目录下执行：
+或者在项目根目录下执行：  
 `npm run`  
 启动服务。当然最快捷的还是直接在webstorm中运行server.js文件即可。
 ## 在PC浏览器中访问
