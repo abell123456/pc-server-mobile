@@ -16,7 +16,7 @@ js/slide.js中的请求url地址域名部分可以更换为localhost或127.0.0.1
 NodeJS服务入口文件是server/server.js，你可以在命令行server目录下执行:  
 `sudo node server.js`  
 或者在项目根目录下执行：  
-`npm run`  
+`npm run`或`tnpm run server`  
 启动服务。当然最快捷的还是直接在webstorm中运行server.js文件即可。
 ## 在PC浏览器中访问
 在PC浏览器中访问：  
