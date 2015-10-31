@@ -28,6 +28,14 @@ impress.init();
     });
 }();
 
+document.addEventListener("visibilitychange", function() {
+    if(document.visibilityState === 'visible'){
+        timeout = 500;
+    } else if(document.visibilityState === 'hidden'){
+        timeout = 2*60*900;
+    }
+});
+
 function send(option){
     option = option || {};
     $.ajax({
